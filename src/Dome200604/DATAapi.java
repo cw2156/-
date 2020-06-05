@@ -25,7 +25,7 @@ public class DATAapi {
         System.out.println(ab);
         System.out.println("两个时间相减当前日期和出生日期");
         long ac=date.getTime()-abc.getTime();
-        System.out.println(ac/1000/60/60/60+"天");
+        System.out.println(ac/1000/60/60/24+"天");
 
 
 
